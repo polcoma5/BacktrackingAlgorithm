@@ -27,7 +27,6 @@ class Crossword:
         self.empty_spaces_list = empty  # -> each value points to a x,y postion and contain the options to fill the gaps
         self.empty_crossword = None     # -> empty crossword (np array) who will be filled and used to check constraints.
 
-
         self.last_word = []
 
         self.total_word_spaces = 0           # -> how many word empty spaces
